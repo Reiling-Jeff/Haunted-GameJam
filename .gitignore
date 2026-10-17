@@ -1,0 +1,68 @@
+# =============================================================
+# RicRacRogue – Unity .gitignore
+# =============================================================
+
+# Von Unity generierte Ordner
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
+
+# Recorder / Recordings
+[Rr]ecordings/
+
+# Autogenerierte Crash-Reports von Unity
+sysinfo.txt
+
+# Builds
+*.apk
+*.aab
+*.unitypackage
+*.app
+
+# =============================================================
+# Visual Studio / Rider / IDE
+# =============================================================
+.vs/
+.vscode/
+.idea/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# =============================================================
+# Betriebssystem
+# =============================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# =============================================================
+# Sonstiges
+# =============================================================
+*.stackdump
+
+# Gradle (Android-Builds)
+.gradle/
+
+# Crashlytics / Firebase 
+crashlytics-build.properties
